@@ -6,6 +6,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="index.css">
     <title>Resultados de busqueda</title>
+    <script src="index.js" defer></script>
 </head>
 <body>
     <header class="header-principal">
@@ -37,7 +38,7 @@
                 <input class="buscador" type="text" placeholder="Buscar trabajos, empresas o habilidades">
             </div>
             <select class="select-buscador" name="Tecnologia" id="">
-                <option value="Tecnología">Tecnología</option>
+                <option style="background-color: black; color: white;" value="Tecnología">Tecnología</option>
             </select>
             <select class="select-buscador" name="Ubicacion" id="">
                 <option value="Ubicación">Ubicación</option>
@@ -54,25 +55,25 @@
                 <h2>Resultados de búsqueda</h2>
             </header>
                 <div class="contenedor-resultados">
-                    <article class="resultado">
+                    <article id="ingeniero-de-software" class="resultado">
                         <h3>Ingeniero de Software</h3>
                         <h5 class="ubicacion">Tech Solutions Inc. | Remoto</h5>
                         <p class="article-detalle">Buscamos un ingeniero de software con experiencia en desarrollo web y conocimientos en JavaScript, React y Node.js. El candidato ideal debe ser capaz de trabajar en equipo y tener buenas habilidades de comunicación.</p>
                         <button class="btn-article">Aplicar</button>
                     </article>
-                    <article class="resultado">
+                    <article id="analista-de-datos" class="resultado">
                         <h3>Analista de Datos</h3>
                         <h5 class="ubicacion">Data Driven Co. | Ciudad de México</h5>
                         <p class="article-detalle">Estamos buscando un analista de datos con experiencia en el manejo de grandes conjuntos de datos y herramientas de visualización. Se requiere conocimiento en SQL, Python y R.</p>
                         <button class="btn-article">Aplicar</button>
                     </article>
-                    <article class="resultado">
+                    <article id="desarrollador-mobile" class="resultado">
                         <h3>Desarrollador de Aplicaciones Móviles</h3>
                         <h5 class="ubicacion">Mobile Apps Ltd. | Guadalajara</h5>
                         <p class="article-detalle">Buscamos un desarrollador de aplicaciones móviles con experiencia en iOS y/o Android. El candidato debe tener conocimientos en Swift, Kotlin y el desarrollo de interfaces de usuario.</p>
                         <button class="btn-article">Aplicar</button>
                     </article>
-                    <article class="resultado">
+                    <article id="ingeniero-de-devops" class="resultado">
                         <h3>Ingeniero de DevOps</h3>
                         <h5 class="ubicacion">Cloud Services SA | Remoto</h5>
                         <p class="article-detalle">Estamos buscando un ingeniero de DevOps con experiencia en la gestión de infraestructuras en la nube, automatización de procesos y herramientas de integración continua. Se requiere conocimiento en AWS, Azure o GCP.</p>
