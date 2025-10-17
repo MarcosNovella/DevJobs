@@ -1,0 +1,247 @@
+* {
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(16 25 34);
+    color: rgb(255 255 255);
+    font-family: Inter, sans-serif;
+    margin: 0;
+}
+
+main {
+    padding: 48px 24px
+}
+
+article{
+    border: 1px solid white;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(209 213 219);
+}
+
+svg {
+    color: rgb(17 115 212);
+    width: 2rem;
+    height: 2rem;
+}
+
+.titulo{
+    font-size: 3rem;
+    line-height: 1;
+}
+
+.subtitulo{
+    color: rgb(209 213 219);
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+}
+
+.article-detalle{
+    color: rgb(209 213 219);
+}
+
+.ubicacion{
+    color: rgb(156 163 175);
+}
+
+button{
+    background-color: rgb(17 115 212);
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn-nav{
+    background-color: rgb(17 115 212 / 0.2);
+    color: rgb(17 115 212);
+    font-weight: 600;
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+}
+
+.btn-nav :hover{
+    background-color: rgb(17 115 212);
+    color: white;
+}
+
+.btn-article{
+    background-color: rgb(17 115 212);
+    position: absolute;
+    top: 25px;
+    right: 25px;
+}
+
+.anterior {
+    background-color: rgb(16 25 34);
+    color: rgb(156 163 175);
+}
+
+.posterior {
+    background-color: rgb(16 25 34);
+    color: rgb(156 163 175);
+}
+
+.select-buscador {
+    background-color: rgba(55, 65, 81, 0.5);
+    border: none;
+    color: rgb(229 231 235);
+    border-radius: 10px;
+    padding: 10px;
+    font-weight: 500;
+    font-size:0.875rem;
+    line-height: 1.25rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    font-family: Inter;
+}
+
+.contenedor-resultados {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;;
+    margin-top: 20px;
+    border: 1px solid rgba(55, 65, 81, 0.5);
+    border-radius: 10px;
+    max-width: 100%;
+}
+
+.resultado {
+    position: relative;
+    border-bottom: 1px solid rgba(55, 65, 81, 0.5);
+    border-top: none;
+    border-color: rgba(55, 65, 81, 0.5);
+    border-left: none;
+    border-right: none;
+    border-radius: 0px;
+    padding: 10px;
+    margin: 0px;
+}
+article:last-child {
+    border-bottom: none;
+}
+
+main {
+    /* border-top : 1px solid rgba(55, 65, 81, 0.5); */
+    padding-left: 2rem;
+    padding-right: 2rem;
+    max-width: 80rem;;
+    flex-grow: 1;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.seccion-titulo {
+    text-align: center;
+    margin-bottom: 32px;
+}
+
+.buscador-contenedor {
+    display: flex;
+    gap: 0.75rem;
+    flex-wrap: wrap;
+}
+
+.relative {
+    position: relative;
+    width: 100%;
+    flex-grow: 1;
+}
+
+.lupita {
+    position: absolute;
+    top: 50%;
+    left: 0.75rem;
+    transform: translateY(-50%);
+    width: 1.5rem;
+    height: 1.5rem;
+    color: rgb(55,65,81);
+}
+
+.buscador {
+    background-color: rgb(31 41 55 / 0.5);
+    border: solid 1px rgb(55,65,81);
+    color: rgb(55,65,81);
+    padding-left: 3rem;
+    padding-right: 1rem;
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    width: 100%;
+    border-radius: 5px;
+}
+
+.buscador::placeholder {
+   color: rgb(55,65,81);
+}
+
+.header-principal {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    border-bottom: 1px solid rgba(55, 65, 81, 0.5);
+    height: 4rem;
+    padding: 0 10rem;
+}
+
+.logo-navegacion {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap:2rem;
+}
+
+.botones-navegacion {
+    display: flex;
+    align-items: center;
+    gap:1rem;
+    justify-content: end;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    gap:1.5rem;
+    font-weight: 500;
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+}
+
+img {
+    border-radius: 50%;
+    width: 2.5rem;
+    height: 2.5rem;
+    aspect-ratio: 1 / 1;
+}
+
+.contenedor-paginacion {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    padding-top: 4rem;
+    font-weight: 600;
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    border-radius: 0.5rem;
+    
+}
+
+.anterior {
+    color: rgb(255 255 255);
+    
+}
